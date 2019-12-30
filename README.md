@@ -33,7 +33,7 @@ The project is broken down into a series of tasks from loading in data to defini
 
 ![Training Loss](loss.png)
 
-### Generated Faces after Training
+## Generated Faces after Training
 
 ![Generated Faces](generatedfaces.png)
 
