@@ -31,7 +31,7 @@ The project will be broken down into a series of tasks from loading in data to d
 
 ### Training Graph
 
-![Training Loss](loss.PNG)
+![Training Loss](loss.png)
 
 ### Generated Faces after Training
 
