@@ -1,6 +1,6 @@
 # Face_Generator-GAN
 
-![Given Faces in dataset](givenfaces.PNG)
+![Given Faces in dataset](givenfaces.png)
 
 ## Goal
 
@@ -35,4 +35,4 @@ The project will be broken down into a series of tasks from loading in data to d
 
 ### Generated Faces after Training
 
-![Generated Faces](generatedfaces.PNG)
+![Generated Faces](generatedfaces.png)
