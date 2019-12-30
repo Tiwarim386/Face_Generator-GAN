@@ -9,7 +9,7 @@ The model is trained on the [CelebFaces Attributes Dataset](http://mmlab.ie.cuhk
 
 I Defined and trained a DCGAN on a dataset of faces. The Goal of this project is to generate new images of faces that look as realistic as possible.
 
-The project will be broken down into a series of tasks from loading in data to defining and training adversarial networks. At the end of the notebook, you'll be able to visualize the results of your trained Generator to see how it performs; your generated samples should look like fairly realistic faces with small amounts of noise
+The project is broken down into a series of tasks from loading in data to defining and training adversarial networks. At the end of the notebook, visualizing the results of your trained Generator to see how it performs; generated samples indeed look like fairly realistic faces with small amounts of noise
 
 ## Project Information
 
@@ -38,8 +38,8 @@ The project will be broken down into a series of tasks from loading in data to d
 ![Generated Faces](generatedfaces.png)
 
 
-### Question: What do you notice about your generated samples and how might you improve this model?
-considering the following factors:
+### Question: What do I notice about the generated samples and how to improve this model?
+Considering the following factors:
 
 * The dataset is biased; it is made of "celebrity" faces that are mostly white
 * Model size; larger models have the opportunity to learn more features in a data feature space
@@ -49,7 +49,7 @@ considering the following factors:
 
  1. The training data does not have the complete face. Features like hairstyle & chins are not visible. As a results, the generated   images miss chins and complete hairstyle. Data should preferably have the complete face.
 
-2. Obtaining higher resolution images as a dataset( Maybe 128x128 ) and then training the model on those images.
+2. Obtaining higher resolution images as a dataset( Maybe 128x128 ) and then training the model on those images. (CelebA has 32x32 images)
 
 3. DCGAN is not a typical network where reduction in loss will point towards a better model. I don't know why it isn't so I'm not sure if higher epochs makes the generaotor generate more accurate and realistic faces.
 
