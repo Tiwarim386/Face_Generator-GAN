@@ -2,6 +2,7 @@
 
 ![Given Faces in dataset](givenfaces.png)
 
+
 ## Goal
 
 The model is trained on the [CelebFaces Attributes Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) (CelebA) which contains about 200000 celebrity images
@@ -10,6 +11,8 @@ The model is trained on the [CelebFaces Attributes Dataset](http://mmlab.ie.cuhk
 I Defined and trained a DCGAN on a dataset of faces. The Goal of this project is to generate new images of faces that look as realistic as possible.
 
 The project is broken down into a series of tasks from loading in data to defining and training adversarial networks. At the end of the notebook, visualizing the results of your trained Generator to see how it performs; generated samples indeed look like fairly realistic faces with small amounts of noise
+
+
 
 ## Project Information
 
@@ -25,17 +28,33 @@ The project is broken down into a series of tasks from loading in data to defini
 - Step 5: Train 
 - Step 6: Generate Faces
 
+
+
 ### Architecture
 
 ![Architecture](architecture.PNG)
+
 
 ### Training Graph
 
 ![Training Loss](loss.png)
 
+
 ## Generated Faces after Training
 
 ![Generated Faces](generatedfaces.png)
+
+
+
+
+## Future Tasks to make my project stand out
+
+### 1 Create a deeper model and use it to generate larger (say 128x128) images of faces.
+### 2 Read existing literature to see if you can use padding and normalization techniques to generate higher-resolution images.
+### 3 Implement a learning rate that evolves over time as they did in this [CycleGAN Github repo](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
+### 4 See if I can extend this model and use a CycleGAN to learn to swap different kinds of faces. For example, learn a mapping between faces that have and do not have eye/lip makeup, as they did in [This paper](https://gfx.cs.princeton.edu/pubs/Chang_2018_PAS/Chang-CVPR-2018.pdf).
+
+
 
 
 ### Question: What do I notice about the generated samples and how to improve this model?
